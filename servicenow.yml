@@ -11,6 +11,6 @@ keyed_groups:
   - key: sn_u_patch_window | lower
     prefix: ''
     separator: ''
-  - key: sn_tags | lower
+  - key: sn_sys_tags | lower
     prefix: ''
     separator: ''

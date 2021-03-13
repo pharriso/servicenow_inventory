@@ -14,3 +14,5 @@ keyed_groups:
   - key: sn_sys_tags | lower
     prefix: ''
     separator: ''
+compose:
+  inventory_hostname: sn_name | lower

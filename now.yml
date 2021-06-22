@@ -1,8 +1,9 @@
 plugin: servicenow.itsm.now
 table: cmdb_ci_linux_server
-columns: [ip_address,fqdn,host_name,sys_class_name,name,os,u_patch_window]
+columns: [ip_address,fqdn,host_name,sys_class_name,name,os,u_patch_window,sys_tags]
 group_by:
   sys_class_name:
   os:
   u_patch_window:
+  sys_tags:
     

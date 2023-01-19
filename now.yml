@@ -7,4 +7,5 @@ group_by:
   os:
   u_patch_window:
   sys_tags:
+  relationships:
     

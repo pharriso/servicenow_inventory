@@ -1,10 +1,13 @@
 plugin: servicenow.itsm.now
 table: cmdb_ci_linux_server
 columns: [ip_address,fqdn,host_name,sys_class_name,name,os,u_patch_window,sys_tags]
-enhanced: false
-group_by:
-  sys_class_name:
-  os:
-  u_patch_window:
-  sys_tags:
-    
+enhanced: true
+keyed_groups:
+  - key: sys_class_name
+    separator: ""
+  - key: os
+    separator: ""
+  - key: u_patch_window
+    separator: ""
+  - key: sys_tags
+    separator: ""
